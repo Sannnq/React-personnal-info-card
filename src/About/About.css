@@ -1,0 +1,16 @@
+.content {
+  width: 350px;
+  text-align: start;
+  font-size: 2px;
+  margin: 10px 40px 0px 30px;
+}
+
+.content h3 {
+  color: white;
+  margin-bottom: 0;
+  font-size: small;
+}
+.content span {
+  color: white;
+  font-size: 1px;
+}
