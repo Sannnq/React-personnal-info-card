@@ -26,10 +26,11 @@
 }
 #site {
   color: white;
-  font-size: 1px;
+  font-size: 10px;
+  display: none;
 }
 .button {
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 50px;
 }
 
@@ -37,18 +38,28 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   width: 145px;
   height: 45px;
-  font-size: smaller;
+  font-size:medium;
+  font-weight: bold;
   padding-bottom: 6px;
   border-style: none;
   border-radius: 10px;
   margin-right: 10px;
 }
+.button #email:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgb(177, 177, 177);
+    top: -4px;
+    border: 1px solid #cccccc;
+    background-color: white;
+    color: rgb(0, 0, 0);
+  }
+
 
 .button #linkedin {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   width: 150px;
   height: 45px;
-  font-size: smaller;
+  font-size:medium;
   padding-bottom: 6px;
   margin-left: 10px;
   background-color: #5093e2;
@@ -56,6 +67,14 @@
   border-style: none;
   border-radius: 10px;
 }
+.button #linkedin:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgb(177, 177, 177);
+    top: -4px;
+    border: 1px solid #cccccc;
+    background-color: #5093e2;
+
+  }
 .button #linkedin img {
   width: 25px;
   position: relative;

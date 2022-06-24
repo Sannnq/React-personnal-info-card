@@ -13,7 +13,9 @@ const Info = () => {
             <span id="name">Florin FOUNGUES</span><br />
             <span id="title">Software Engineer</span><br />
             <span id="site">founguesfirst.com</span>
-            <div className="button"><a href="https://google.com" target="blank_"><button id="email"><img id="linked" src={mail} alt="" />Email</button></a><a href="https://google.com" target='blank_'><button id="linkedin"><img id="linked" src={linkedin} alt="" />LinkedIn</button></a></div>
+            <div className="button">
+                <a href="https://google.com" target="blank_"><button id="email"><img id="linked" src={mail} alt="" />Email</button></a>
+                <a href="https://www.linkedin.com/in/florin-foungues/" target='blank_'><button id="linkedin"><img id="linked" src={linkedin} alt="" />LinkedIn</button></a></div>
             <About className='text' />
             <Interest className='text' />
             <Footer />
